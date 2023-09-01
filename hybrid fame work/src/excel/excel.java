@@ -18,9 +18,9 @@ public class excel {
 		Workbook book=WorkbookFactory.create(fis);
 		Sheet sheet = book.getSheet("Sheet1");
 		Row row = sheet.getRow(0);
-		Cell cl = row.getCell(0);
+	//	Cell cl = row.getCell(0);
 		String value = cl.getStringCellValue();
-		System.out.println(value);
+	//	System.out.println(value);
 
 	}
 
